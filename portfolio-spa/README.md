@@ -1,16 +1,29 @@
-# React + Vite
+# SHOWCASE APP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A react app that displays projects and their descriptions to the user, while also allowing the user to search for older projects and simultaneously add new ones.
 
-Currently, two official plugins are available:
+## FEATURES
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+-Project List-shows a list of existing projects within the app
+-AddProject-Allows you to add new projects to be displayed in the app
+-SearchBar-Allows you to search for existing projects on the app.
 
-## React Compiler
+## TECH USED
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-React(used in building interface from reusable pieces/components)
+-Vite(tool that runs it fast)
+-CSS(used in styling and decor of the app).
 
-## Expanding the ESLint configuration
+## SETUP AND USE
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1.Open the command line interface, Ubuntu on your local computer.
+2.Clone the repository onto your local computer
+-use command /git clone/ + link to the repository on github.
+3.In your command terminal.
+-Use the command /cd/ + the name of the project folder to enter it..
+4.Run the command npm install.
+5.Run the command npm run dev to start it up and open it in browser.
+
+## DOCUMENTED LIMITATIONS
+
+Projects live in app's memory thus when the page is refreshed data is lost and any added projects disappear.
